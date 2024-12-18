@@ -87,6 +87,9 @@ button {
     display: flex;
     justify-content: space-between;
 }
+.score, .correct-answer{
+    color: #ee4d2d;
+}
 @media screen and (max-width: 576px){
     body{
         margin: 0;

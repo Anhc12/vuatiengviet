@@ -28,7 +28,6 @@ const wordList = [
 // State variables
 let currentWord = ''; //biến chứa đáp án đúng
 let scrambledWord = '';// biến xáo trộn
-let hintWord = '';
 let timer; // Timer variable
 let timeLeft = 40; // Countdown time in seconds
 let correctAnswer = 0;//biến đếm câu trả lời đúng
