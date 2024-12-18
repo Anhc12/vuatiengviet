@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Word Scramble Game</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+<div class="container">
+    <div class="banner-top">
+        <img alt="vua-tieng-viet" class="bg" src="banner-mb.jpg">
+        <img alt="vua-tieng-viet" class="bg" src="banner2-lt.png">
+    </div>
+    <div class="content">
+        <h1>Vua tếng Việt</h1>
+        <span>Sắp xếp các chữ cái sau thành từ có nghĩa</span>
+        <p class="scrambled-word">?????</p>
+        <input class="guess-input" placeholder="Nhập câu trả lời" type="text"/>
+        <div class="scoreboard">
+            <p class="score">Điểm: 0</p>
+
+            <p class="correct-answer">Câu trả lời đúng: 0</p>
+        </div>
+        <div class="timer">Time left: 30s</div>
+        <button class="check-button">Check</button>
+        <button class="hint-button" onclick="showHint()">💡 Hint</button>
+        <p class="hint-text" style="display: none;">Here comes the hint...</p>
+        <p class="message">Bạn đã sẵn sàng?</p>
+        <button class="start-button">Bắt đầu</button>
+        <button class="reset-button">Chơi lại</button>
+
+    </div>
+    <div class="banner-bot">
+        <img alt="vua-tieng-viet" class="bg" src="banner-mb.jpg">
+        <img alt="vua-tieng-viet" class="bg-bot2" src="banner2-lt.png">
+    </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
